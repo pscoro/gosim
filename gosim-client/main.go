@@ -30,13 +30,13 @@ func main() {
     // fmt.Print(PROMPT_IN, " ")
     // text, _ := reader.ReadString('\n')
     // if strings.TrimSpace(string(text)) == "" {
-    // 	continue
+    //  continue
     // }
     // // fmt.Fprintf(c, "[USER] "+text+"\n")
     // server.session.sendChatMessage([]string{"all"}, text)
     // if strings.TrimSpace(string(text)) == "STOP" {
-    // 	fmt.Println("TCP client exiting...")
-    // 	return
+    //  fmt.Println("TCP client exiting...")
+    //  return
     // }
 
     msg, ok := term.readMessage()
